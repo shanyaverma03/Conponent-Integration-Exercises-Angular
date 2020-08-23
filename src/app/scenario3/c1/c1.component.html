@@ -1,0 +1,6 @@
+<h1>Scenario 3</h1>
+<label>Enter</label>
+<input #theinput type="text">
+<button (click)="sendData(theinput.value)">Send data</button>
+<app-c2 [textFromParent]="text"></app-c2>
+
